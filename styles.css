@@ -42,6 +42,7 @@ h1 {
     max-width: 600px;
     margin: 0 auto 2rem auto;
     color: #b3b3b3;
+    text-align: justify;
 }
 
 .social-links {
@@ -79,21 +80,13 @@ h1 {
     background-color: #0077b5;
 }
 
-.instagram {
-    background-color: #e4405f;
+.github {
+    background-color: #333;
+    border: 1px solid #444;
 }
 
-.x {
-    background-color: #000000;
-    border: 1px solid #333333;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.x i {
-    font-size: 1.1em;
-    font-weight: bold;
+.email {
+    background-color: #2ecc71;
 }
 
 /* Responsive Design */
