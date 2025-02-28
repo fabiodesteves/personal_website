@@ -4,44 +4,74 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fábio Esteves - Personal Website</title>
+  <title>Fábio Esteves - Developer</title>
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500&family=Inter:wght@400;500;600&display=swap">
 </head>
 
 <body>
   <div class="container">
-    <div class="profile">
-      <img src="IMG_0207.JPG" alt="Fabio Esteves" class="profile-image">
-      <h1 class="name">Fábio Esteves</h1>
-      <p class="bio">
-        Hi! 👋 I'm Fábio, a data analyst living in Lisbon, Portugal. I help my company make better decisions by optimising credit processes (reducing risk, fraud, and automating decision-making). I'm also passionate about apps and development. Building tools that solve real problems feels like magic to me.
-      </p>
-      <p class="bio">
-        My dream is to settle in a peaceful Mediterranean town, swimming in crystal-clear waters and playing tennis every day. I document my journey — lessons, failures, and everything in between — in a newsletter for like-minded, ambitious people (first link below).
-      </p>
-      <p class="bio">
-        Feel free to get in touch!
-      </p>
-      <div class="social-links">
-        <a href="https://fabioesteves.substack.com/" class="social-button newsletter">
-          <i class="far fa-envelope"></i> Newsletter
-        </a>
-        <a href="https://www.linkedin.com/in/fabiodesteves/" class="social-button linkedin">
-          <i class="fab fa-linkedin"></i> LinkedIn
-        </a>
-        <a href="https://github.com/fabiodesteves" class="social-button github">
-          <i class="fab fa-github"></i> GitHub
-        </a>
-        <a href="mailto:fabioaesteves@outlook.com" class="social-button email">
-          <i class="fas fa-envelope"></i> Email
-        </a>
+    <header>
+      <div class="code-line"><span class="comment">// Fábio Esteves</span></div>
+      <div class="code-line"><span class="keyword">const</span> <span class="variable">developer</span> <span class="operator">=</span> <span class="bracket">{</span></div>
+    </header>
+    
+    <main>
+      <div class="profile-section">
+        <div class="profile-image-wrapper">
+          <img src="IMG_0207.JPG" alt="Fabio Esteves" class="profile-image">
+        </div>
+        
+        <div class="profile-details">
+          <div class="code-block">
+            <div class="code-line indent-1"><span class="property">name</span><span class="operator">:</span> <span class="string">"Fábio Esteves"</span><span class="comma">,</span></div>
+            <div class="code-line indent-1"><span class="property">location</span><span class="operator">:</span> <span class="string">"Lisbon, Portugal"</span><span class="comma">,</span></div>
+            <div class="code-line indent-1"><span class="property">role</span><span class="operator">:</span> <span class="string">"Data Analyst"</span><span class="comma">,</span></div>
+            <div class="code-line indent-1"><span class="property">skills</span><span class="operator">:</span> <span class="bracket">[</span><span class="string">"Data"</span><span class="comma">,</span> <span class="string">"Development"</span><span class="comma">,</span> <span class="string">"Problem Solving"</span><span class="bracket">]</span><span class="comma">,</span></div>
+          </div>
+          
+          <div class="code-line indent-1"><span class="property">bio</span><span class="operator">:</span> <span class="bracket">`</span></div>
+          
+          <div class="bio-content">
+            <p>Hi! 👋 I'm Fábio, a data analyst living in Lisbon, Portugal. I help my company make better decisions by optimising credit processes (reducing risk, fraud, and automating decision-making). I'm also passionate about apps and development. Building tools that solve real problems feels like magic to me.</p>
+            
+            <p>My dream is to settle in a peaceful Mediterranean town, swimming in crystal-clear waters and playing tennis every day. I document my journey — lessons, failures, and everything in between — in a newsletter for like-minded, ambitious people (first link below).</p>
+            
+            <p>Feel free to get in touch!</p>
+          </div>
+          
+          <div class="code-line indent-1"><span class="bracket">`</span><span class="comma">,</span></div>
+          
+          <div class="code-line indent-1"><span class="property">links</span><span class="operator">:</span> <span class="bracket">[</span></div>
+          
+          <div class="social-links">
+            <a href="https://fabioesteves.substack.com/" class="social-button newsletter">
+              <i class="far fa-envelope"></i><span>Newsletter</span>
+            </a>
+            <a href="https://www.linkedin.com/in/fabiodesteves/" class="social-button linkedin">
+              <i class="fab fa-linkedin"></i><span>LinkedIn</span>
+            </a>
+            <a href="https://github.com/fabiodesteves" class="social-button github">
+              <i class="fab fa-github"></i><span>GitHub</span>
+            </a>
+            <a href="mailto:fabioaesteves@outlook.com" class="social-button email">
+              <i class="fas fa-envelope"></i><span>Email</span>
+            </a>
+          </div>
+          
+          <div class="code-line indent-1"><span class="bracket">]</span></div>
+        </div>
       </div>
-    </div>
+    </main>
+    
+    <footer>
+      <div class="code-line"><span class="bracket">}</span><span class="semicolon">;</span></div>
+    </footer>
   </div>
 </body>
 
