@@ -179,10 +179,13 @@ footer {
 }
 
 .social-button {
-    display: inline-flex;
+    width: auto;
+    padding: 8px 16px;
+    white-space: nowrap;
+    display: inline-block;
+    max-width: max-content;
     align-items: center;
-    padding: 0.6rem 1rem;
-    border-radius: 12px;
+    border-radius: 9999px;
     text-decoration: none;
     color: white;
     font-size: 14px;
@@ -216,7 +219,15 @@ footer {
     background-color: #2ecc71;
 }
 
-/* Responsive adjustments */
+/* Create a container for the social buttons */
+.social-buttons-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+/* Responsive behavior */
 @media (max-width: 600px) {
     body {
         padding: 1rem;
@@ -237,8 +248,13 @@ footer {
         padding-right: 1rem;
     }
     
+    .social-buttons-container {
+        justify-content: space-between;
+    }
+    
     .social-button {
-        width: 100%;
+        flex: 0 0 auto;
+        /* max-width: calc(50% - 10px); */
     }
     
     .bio-content {
@@ -251,5 +267,16 @@ footer {
     
     .indent-1 {
         padding-left: 1rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .social-buttons-container {
+        justify-content: center;
+    }
+    
+    .social-button {
+        flex: 0 0 auto;
+        max-width: max-content;
     }
 } 
